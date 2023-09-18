@@ -12,6 +12,7 @@ class Cell:
         self.has_BW = True
         self.has_RW = True
         self._win = win
+        self.visited = False
     
     def draw(self, x1, y1, x2, y2):
         self._x1 = x1 
